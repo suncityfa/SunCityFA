@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bientôt disponible</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #FF4D00, #FF8A00);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 480px;
+      background: rgba(0,0,0,0.3);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 30px rgba(255, 77, 0, 0.6);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.3rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .emoji {
+      font-size: 4rem;
+      margin-bottom: 20px;
+      animation: bounce 2s infinite;
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    a {
+      display: inline-block;
+      background: white;
+      color: #FF4D00;
+      text-decoration: none;
+      font-weight: 700;
+      padding: 12px 30px;
+      border-radius: 30px;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    a:hover {
+      background: #FF8A00;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="emoji">🚧</div>
+    <h1>Bientôt disponible</h1>
+    <p>Cette page est en construction. Revenez bientôt pour découvrir du contenu tout neuf !</p>
+    <a href="index.html">Retour à l'accueil</a>
+  </div>
+</body>
+</html>
